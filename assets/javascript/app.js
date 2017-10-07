@@ -55,7 +55,7 @@ $(document).ready(function() {
         var tMinutesTillTrain = sv.frequency - tRemainder;
         var nextTrain = moment().add(tMinutesTillTrain, 'minutes');
 
-        $('#tbody').append('<tr><td>' + sv.trainName + '</td><td>' + sv.desition + '</td><td>' + sv.frequency + '</td><td>' + moment(nextTrain).format('hh:mm') + '<td>' + tMinutesTillTrain + '</td></td></tr>');
+        $('#tbody').append('<tr><td>' + sv.trainName + '</td><td>' + sv.desition + '</td><td>' + sv.frequency + '</td><td>' + moment(nextTrain).format('hh:mm A') + '<td>' + tMinutesTillTrain + '</td></td></tr>');
     }); // end database orderByChild
 
 }); // end document ready
