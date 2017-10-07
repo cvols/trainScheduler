@@ -1,0 +1,14 @@
+.jumbo-custom {
+	background-color: #1C0033;
+	color: #fff;
+}
+
+.btn-custom {
+	background-color: #1C0033;
+	color: #fff;
+}
+
+.btn-custom:hover {
+	background-color:  #380066;
+	color: #fff;
+}
